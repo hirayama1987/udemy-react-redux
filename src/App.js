@@ -2,7 +2,11 @@ import React, { Component } from 'react';
 
 class App extends Component {
   render() {
-    return <h1>Hello World</h1>
+    return (
+      <React.Fragment>
+      <input type="text" onClick={()=>{console.log("クリック")}}/>
+      </React.Fragment>
+    )
   }
 }
 
